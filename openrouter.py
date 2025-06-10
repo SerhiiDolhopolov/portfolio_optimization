@@ -10,11 +10,11 @@ client = OpenAI(
 
 
 def ask_deepseek_r1(prompt: str) -> str:
-    return ask(prompt, model="deepseek/deepseek-r1-0528:free")
+    return ask(prompt, model="deepseek/deepseek-r1:free")
     
 
 def ask_deepseek_v3(prompt: str) -> str:
-    return ask(prompt, model="deepseek/deepseek-v3-base:free")
+    return ask(prompt, model="deepseek/deepseek-chat:free")
 
 
 def ask(
