@@ -1,0 +1,7 @@
+Help me create an investment portfolio of stocks for companies from the S&P500 list. Please make the portfolio as efficient as possible, finding a balance between risk and profit. Use only the {CARDINALITY} most efficient companies. In your answer, write only the list of stock tickers and the weight of the stocks in the portfolio, using this format:
+ticker: weight,
+ticker: weight,
+ticker: weight,
+...
+
+Do not write anything except the list of tickers and weights. The total weight of the {CARDINALITY} companies must be equal to 1. Be sure to check whether the sum of the weights is equal to 1, if not, then make the sum of the weights equal to 1
