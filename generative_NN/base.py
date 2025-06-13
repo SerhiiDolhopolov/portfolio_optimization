@@ -1,23 +1,5 @@
-from openai import OpenAI
-
-from config import OPENROUTER_KEY
-
-
-client = OpenAI(
-  base_url="https://openrouter.ai/api/v1",
-  api_key=OPENROUTER_KEY,
-)
-
-
-def ask_deepseek_r1(prompt: str) -> str:
-    return ask(prompt, model="deepseek/deepseek-r1:free")
-    
-
-def ask_deepseek_v3(prompt: str) -> str:
-    return ask(prompt, model="deepseek/deepseek-chat:free")
-
-
 def ask(
+    client,
     prompt: str, 
     model: str,
 ) -> str:
