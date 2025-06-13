@@ -61,11 +61,8 @@ Portfolio composition for mean-variance, where:
 ![Portfolio Composition](images/portfolio_composition.png)
 
 ### Test
-The min-variance and Sharpe ratio portfolios performed best.  
-The max-returns portfolio performed poorly, possibly due to the current geopolitical situation.  
-The neural network portfolios slightly outperform the S&P 500 benchmark.
+- The min-variance and Sharpe ratio portfolios performed best.  
+- The max-returns portfolio performed poorly, possibly due to the current geopolitical situation.  
+- The neural network portfolios slightly outperform the S&P 500 benchmark.
 
-![Test](images/test.png)
-- The NN portfolios are a little better than S&P 500
-  
 ![Test](images/test.png)
